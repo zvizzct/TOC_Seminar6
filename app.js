@@ -23,10 +23,12 @@ const getDate = () => {
     $.fontSize = "22px";
     $.fontWeight = "bold";
 
-    res.innerHTML = `Seconds: ${Math.floor(dif % 60)} <br>
-    Minutes: ${Math.floor((dif % 3600) / 60)}\n <br>
+    res.innerHTML = `
+    Days: ${Math.floor(dif / (3600 * 24))} <br>
     Hours: ${Math.floor((dif % (3600 * 24)) / 3600)}\n <br>
-    Days: ${Math.floor(dif / (3600 * 24))}`;
+    Minutes: ${Math.floor((dif % 3600) / 60)}\n <br>
+    Seconds: ${Math.floor(dif % 60)} <br> 
+    `;
   } else {
     $.color = "#EF476F";
     $.fontSize = "22px";
