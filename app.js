@@ -38,5 +38,3 @@ const getDate = () => {
 };
 
 btt.addEventListener("click", getDate);
-
-console.log(btt);
