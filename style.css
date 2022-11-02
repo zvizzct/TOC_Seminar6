@@ -71,3 +71,12 @@ body {
 .but button:hover {
   background-color: #167e8c;
 }
+
+@media (max-width: 600px) {
+  .tittle_h1 {
+    font-size: 54px;
+  }
+  .container {
+    gap: 100px;
+  }
+}

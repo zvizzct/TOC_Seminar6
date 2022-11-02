@@ -5,9 +5,9 @@ const actualDate = new Date();
 
 const btt = document.querySelector("#button");
 
-function formatNumber(num) {
+const formatNumber = (num) => {
   return num.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1.");
-}
+};
 
 const getDate = () => {
   let date = document.querySelector("#text").value;
@@ -19,7 +19,7 @@ const getDate = () => {
     let inputDate = new Date(date);
     let dif = Math.abs(actualDate - inputDate) / 1000;
     $.color = "#06D6A0";
-    $.textAlign = "justify";
+    // $.textAlign = "justify";
     $.fontSize = "22px";
     $.fontWeight = "bold";
 
