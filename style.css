@@ -67,7 +67,6 @@ body {
   font-weight: bold;
   transition: background-color 0.2s;
 }
-/* hover */
 .but button:hover {
   background-color: #167e8c;
 }
