@@ -46,7 +46,7 @@
 
    $p⁴-(0p \ | \ 1q)-(0n \ | \ zp \ | \ 3x)T(xp\ | \ 2y):(kp):(kp)(.p³(+(0p \ | \ 1m)|-(0p \ | \ 1q)):kp|z)$
 
-3. ## Create a regular expression in Javascript format that recognizes a timestamp (hint: you can use an online checker such as https://regexr.com/)
+3. Create a regular expression in Javascript format that recognizes a timestamp (hint: you can use an online checker such as https://regexr.com/)
    ```js
    const regexTime =
      /^(\d{4}-(0[1-9]|1[0-2])-(0[1-9]|[1-2][0-9]|3[0-1]))T([01][0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9](\.(\d{3}(\+(0[0-9]|1[0-4])|-(0[0-9]|1[0-2])):[0-5][0-9])|Z)$/;
